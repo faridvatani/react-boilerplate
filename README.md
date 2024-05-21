@@ -2,12 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## How I build this boilerplate?
+## How did I make this boilerplate?
+
 I used the following commands to create this boilerplate:
+
 ```bash
 npx create-react-app react-boilerplate --template typescript
 cd my-app
 ```
+
 The project is structured as follows:
 
 - `components`: This folder stores all the components.
@@ -22,10 +25,30 @@ The project is structured as follows:
 - `layouts`: This folder stores all the layouts, including the main layout, auth layout, and admin layout.
 - `styles`: This folder stores the global styles (if you're not using TailwindCSS).
 
+I setup Eslint and Prettier to enforce code quality and formatting. I installed the following packages:
+
+```bash
+npm init @eslint/config@latest
+```
+
+Here is the output of the Eslint installation process:
+
+```bash
+✔ How would you like to use ESLint? > problems
+✔ What type of modules does your project use? > esm
+✔ Which framework does your project use? > react
+✔ The React plugin does not officially support ESLint v8 yet. What would you like to do? > 8.x
+✔ Does your project use TypeScript? > typescript
+✔ Where does your code run? > browser
+The config that you have selected requires the following dependencies: eslint@8.x, globals, @eslint/js, typescript-eslint, eslint-plugin-react
+✔ Would you like to install them now? > Yes
+✔ Which package manager do you want to use? > yarn
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -64,3 +87,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+```
+
+```
