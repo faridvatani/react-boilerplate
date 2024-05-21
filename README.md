@@ -8,12 +8,24 @@ I used the following commands to create this boilerplate:
 npx create-react-app react-boilerplate --template typescript
 cd my-app
 ```
+The project is structured as follows:
+
+- `components`: This folder stores all the components.
+- `hooks`: This folder stores all the custom hooks.
+- `helpers`: This folder stores all the helper functions.
+- `services`: This folder stores all the services.
+- `pages`: This folder stores all the pages.
+- `types`: This folder stores all the types.
+- `providers` or `contexts`: This folder stores all the context providers.
+- `assets`: This folder stores all the assets like fonts, SVGs, animations, etc.
+- `config`: This folder stores all the configurations, including AWS, Firebase, Axios, Redux, theme, i18n, react-router, and react-query configurations.
+- `layouts`: This folder stores all the layouts, including the main layout, auth layout, and admin layout.
+- `styles`: This folder stores the global styles (if you're not using TailwindCSS).
 
 
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
