@@ -40,14 +40,21 @@ export default tseslint.config(
     rules: {
       ...eslintConfigPrettier.rules,
       'react/jsx-no-target-blank': 'off',
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
       'prefer-const': 'error',
       '@typescript-eslint/no-explicit-any': 'warn',
       'no-empty-function': 'error',
       '@typescript-eslint/no-empty-function': 'error',
-      'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
+      'react/jsx-curly-brace-presence': [
+        'warn',
+        { props: 'never', children: 'never' },
+      ],
       'react/self-closing-comp': ['error', { component: true, html: true }],
       'max-lines': ['warn', { max: 124 }],
+      'prettier/prettier': 'error',
     },
-  },
+  }
 );

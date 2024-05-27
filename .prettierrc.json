@@ -4,7 +4,7 @@
   "arrowParens": "always",
   "bracketSpacing": true,
   "editorconfig": true,
-  "trailingComma": "all",
+  "trailingComma": "es5",
   "endOfLine": "lf",
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,

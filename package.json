@@ -24,9 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "ESLINT_USE_FLAT_CONFIG=true eslint src --report-unused-disable-directives --no-error-on-unmatched-pattern",
-    "lint:fix": "eslint src --fix",
-    "prettier": "prettier . --check --ignore-unknown",
-    "prettier:fix": "prettier . -w"
+    "lint:fix": "eslint src --fix"
   },
   "eslintConfig": {
     "extends": [
