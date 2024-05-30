@@ -36,6 +36,14 @@ for Prettier, I installed the following packages:
 yarn add --dev --exact prettier
 ```
 
+for Husky, I installed the following packages:
+
+```bash
+yarn add -D husky
+yarn husky init
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:

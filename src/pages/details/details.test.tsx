@@ -1,5 +1,5 @@
-import test from 'node:test';
-
-test('Should render Details page', () => {
-  //
+describe('Details component', () => {
+  test('renders details page', () => {
+    // Test code here
+  });
 });

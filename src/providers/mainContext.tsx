@@ -1,4 +1,3 @@
-import React from 'react';
 import { createContext, FC, ReactNode, useState } from 'react';
 
 type MainContextValue = {
