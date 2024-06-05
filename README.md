@@ -42,7 +42,11 @@ for Husky, I installed the following packages:
 yarn add -D husky
 yarn husky init
 ```
+for storybook, I installed the following packages:
 
+```bash
+npx storybook@latest init
+```
 
 ## Available Scripts
 
